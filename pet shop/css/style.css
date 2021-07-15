@@ -1,0 +1,50 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.fondoNegro{
+
+    background-color: #222222;
+    font-family: roboto;
+   color: rgb(255, 255, 255);
+}
+.fondoAmarillo{
+    background-color: #F0A83E;
+ color: rgb(255, 255, 255);
+}
+.banner{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+height: 450px;
+}
+body{
+
+    font-family: roboto;
+}
+.fondoBlanco{
+    color: rgb(255, 255, 255);
+}
+
+.cafe{
+    color: #3C2313;
+}
+.comedero{
+    background: #F0A83E;
+border-radius: 5px;
+
+
+}
+.amarillo{
+   color: #F0A83E;
+}
+.fondoCafe{
+    background-color:#3C2313; 
+}
+footer{
+    background-color: #222222;
+}
+.letrablanca{
+    color: rgb(255, 255, 255);
+    background-color:#3C2313; 
+}

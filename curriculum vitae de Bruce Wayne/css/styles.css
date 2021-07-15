@@ -1,30 +1,23 @@
-header,.fondo {
-background-color: #C4C4C4 ;
+
+    
+.fondo{
+background-color: #C4C4C4; 
 }
 h1 {
     color: #005677;
-    
+    background-color: #C4C4C4;
 }
-body{ font-family: 'Times New Roman', Times, serif;
+body{ 
+    font-family: 'Times New Roman', Times, serif;
 }
-
 
 .batman{
-    position: absolute;
-    width: 100px;
-    height: 147px;
-    left: 1200px;
-    top: 21px;
-    
+    text-align: center;
+    background-color: rgb(203, 206, 200);
 }
 h2{
     color: #005677;
 }
 footer{
 background-color: #005677;
-
-}
-
-.centro{
-    align-content: center;
 }
