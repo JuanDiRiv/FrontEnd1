@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: roboto;
     src: url(../fonts/Roboto-Regular.ttf);
@@ -16,6 +21,7 @@
 .banner{
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
     background-repeat: no-repeat;
+    background-size: cover;
 height: 450px;
 }
 body{
@@ -30,8 +36,8 @@ body{
     color: #3C2313;
 }
 .comedero{
-    background: #F0A83E;
-border-radius: 5px;
+    background-color: #F0A83E;
+
 
 
 }
@@ -47,4 +53,8 @@ footer{
 .letrablanca{
     color: rgb(255, 255, 255);
     background-color:#3C2313; 
+}
+.bloque{
+display: inline-block;
+
 }
