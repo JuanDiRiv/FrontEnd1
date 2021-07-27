@@ -9,10 +9,13 @@
 }
 
 .fondoNegro{
-
+    display: flex;
+justify-content: space-between;
+align-items: center;
     background-color: #222222;
     font-family: roboto;
    color: rgb(255, 255, 255);
+
 }
 .fondoAmarillo{
     background-color: #F0A83E;
@@ -20,10 +23,25 @@
 }
 .banner{
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: contain;
+    height: 1000px;
+    margin: 0px;
+    padding: 030px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     background-repeat: no-repeat;
     background-size: cover;
-height: 450px;
+    
 }
+
+
+
+.comederosendescuento{
+background-color: rgb(255, 255, 255);
+}
+
 body{
 
     font-family: roboto;
@@ -36,10 +54,10 @@ body{
     color: #3C2313;
 }
 .comedero{
-    background-color: #F0A83E;
-
-
-
+    background: #F0A83E;
+  
+    padding: 23px 15px
+     5px;
 }
 .amarillo{
    color: #F0A83E;
@@ -58,3 +76,28 @@ footer{
 display: inline-block;
 
 }
+.menu{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+align-content: center;
+background-color: #F0A83E;
+color: rgb(255, 255, 255);
+height:60px;
+font-size: 150%;
+padding: 30px;
+
+
+}
+
+.img{
+   height: 40px;
+
+}
+.menuPrincipal{
+display: flex;
+justify-content: flex-end;
+
+}
+

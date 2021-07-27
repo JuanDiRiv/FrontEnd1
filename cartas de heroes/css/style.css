@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#D1891C ;
+    padding: 3px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+
+    
+}
+
+h1{
+    background-color:  #00669F;
+    padding: 20px;
+    box-shadow: 0px 3px 7px;
+    color: white ;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+
+    
+
+}
+.fondobatman{
+  height: 200px;
+  margin: 20px;
+
+}
+article{
+    display: flex;
+    
+}
