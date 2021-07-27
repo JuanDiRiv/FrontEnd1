@@ -163,7 +163,7 @@ footer{
 
 
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     main{
         display: flex;
        flex-direction: row;
@@ -195,4 +195,4 @@ justify-content: center;
         flex-wrap: wrap;
 justify-content: center;
     }
-} */
+}
