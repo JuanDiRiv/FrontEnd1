@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   box-sizing: border-box; 
 }
 
 @font-face {
@@ -10,48 +11,69 @@
 
 .fondoNegro{
     display: flex;
-justify-content: space-between;
-align-items: center;
+
     background-color: #222222;
     font-family: roboto;
    color: rgb(255, 255, 255);
 
 }
+.menu0{
+position: absolute;
+right: 0%;
+
+}
+
+
+
 .fondoAmarillo{
     background-color: #F0A83E;
  color: rgb(255, 255, 255);
+ 
 }
 .banner{
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
     background-size: contain;
-    height: 1000px;
+    height: 39.6vw;
     margin: 0px;
-    padding: 030px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
     
 }
 
 
+#fas{
+   color:#F0A83E ;
+   display: flex;
+   justify-content: center;
+   font-size: 160px;
+   margin: 100px,0px;
+}
 
 .comederosendescuento{
 background-color: rgb(255, 255, 255);
 }
 
 body{
-
+    
     font-family: roboto;
 }
 .fondoBlanco{
     color: rgb(255, 255, 255);
 }
+#productos{
+display: flex;
+flex-direction: column;
+text-align: center;
 
+}
 .cafe{
     color: #3C2313;
+   
+
 }
 .comedero{
     background: #F0A83E;
@@ -73,9 +95,31 @@ footer{
     background-color:#3C2313; 
 }
 .bloque{
-display: inline-block;
+display: flex;
+justify-content: center;
 
 }
+
+.bloque1{
+text-align: center;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin: 5%;
+}
+
+.bloque2{
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 5%;
+}
+
+.bloque3{
+    text-align: center;
+    margin: 5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
 .menu{
 display: flex;
 flex-wrap: wrap;
@@ -87,6 +131,10 @@ color: rgb(255, 255, 255);
 height:60px;
 font-size: 150%;
 padding: 30px;
+position: sticky;
+ top: 0px;
+ z-index: 10;
+
 
 
 }
@@ -99,5 +147,31 @@ padding: 30px;
 display: flex;
 justify-content: flex-end;
 
+
+}
+div .fas{
+display: flex;
+
+
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen {
+    
+}
