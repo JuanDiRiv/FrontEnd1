@@ -241,9 +241,8 @@ font-size: 20px;
 /* -------------------------------------------------------------------------------------------------- */
 
 .fas{
- position: fixed;
-
- bottom: 540px ;
+position: fixed;
+bottom: 540px ;
 right: 68px;
 font-size:70px;
 align-items: right;
