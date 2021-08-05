@@ -91,8 +91,9 @@ footer{
     background-color: #222222;
 }
 .letrablanca{
-    color: rgb(255, 255, 255);
-    background-color:#3C2313; 
+    color: #3C2313;
+    font-size: 20px
+    
 }
 .bloque{
 display: flex;
@@ -155,13 +156,65 @@ display: flex;
 
 }
 
+/* formulario */
+/* ----------------------------------------------------------------------------- */
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.tamanio{
+    justify-content: center;
+height: 50px;
+width: 490px;
+top: 600px;
+font-size: 20px;
+background-color:#3C2313;
+border-radius: 15px;
+color: #fff;
+border: none;
+}
+
+.tamanio::placeholder{
+
+color: rgba(255, 255, 255,.25);
+
+}
 
 
 
 
 
 
+.boton{
+display: flex;
 
+
+}
+
+.submit1{
+  
+    background-color: #F0A83E;
+    border-radius:23.011px;
+    width: 189px;
+    height:38px;
+    padding: 10px;
+
+    }
+
+
+    .resetear{
+  
+        background-color: #8A8787;
+
+        border-radius:23.011px;
+        width: 189px;
+        height:38px;
+        padding: 10px;
+    
+        }
 
 
 

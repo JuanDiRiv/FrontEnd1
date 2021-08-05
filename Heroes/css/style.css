@@ -45,16 +45,27 @@ position: relative;
     justify-content: flex-end;
 background-color:#001D2D;
 padding: 15px;
-/* color: #fff; */
     font-size: 30px;
     box-shadow: 0px 5px 5px rgb(102 99 99);
-    /* position: sticky;
-    top: 20px;
-    z-index: 0;
-   */
- 
-} 
+  
 
+
+}
+/* span p a:link{
+
+
+    
+} */
+
+span p a:active{
+background-color: grey;
+
+
+}
+span p a:visited{
+color:#fff
+    
+}
 .img{
 border-radius: 50%;
 position: relative;
@@ -174,6 +185,7 @@ height: 50px;
 width: 490px;
 top: 600px;
 font-size: 20px;
+
 }
 
 .submit{
@@ -223,6 +235,210 @@ display: flex;
 font-size: 20px;
 
 }
+
+/* -------------------------------------------------------------------------------------------------- */
+/* Boton + */
+/* -------------------------------------------------------------------------------------------------- */
+
+.fas{
+ position: fixed;
+
+ bottom: 540px ;
+right: 68px;
+font-size:70px;
+align-items: right;
+color: #00669F;
+}
+
+
+.fas:active{
+color:#001D2D;
+
+}
+
+span p a:visited{
+color:#fff
+
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+/* Formulario */
+/* --------------------------------------------------------------------------------------------------- */
+
+.fondoColor{
+display: block;
+
+background-color: #00669F;
+box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+border-radius: 49.0901px;
+height: 819px;
+width: 1420px;
+
+
+}
+.añade{
+font-size:50px;
+color: #fff;
+font-weight: bold;
+
+}
+
+
+.añade1{
+    font-size:20px;
+    color: #fff;
+    
+    
+    }
+.mainsection{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+    
+.section1{
+display: flex;
+justify-content: center;
+margin: 60px;
+
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    
+    }
+
+.box1{
+    height: 66px;
+    width: 374px;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    /* box-sizing: border-box; */
+    border-radius: 15.3407px;
+    right: -87px;
+    position: relative;
+}
+
+.box2{
+    height: 66px;
+    width: 374px;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    /* box-sizing: border-box; */
+    border-radius: 15.3407px;
+    right: 156px;
+    position: relative;
+
+}
+
+.box3{
+    height: 66px;
+    width: 374px;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    /* box-sizing: border-box; */
+    border-radius: 15.3407px;
+    right: -9px;
+    position: relative;
+
+}
+
+
+.box4{
+
+    height: 66px;
+    width: 374px;
+    /* border: 1.53407px solid rgba(0, 0, 0, 0.1); */
+    /* box-sizing: border-box; */
+    border-radius: 15.3407px;
+    right: 106px;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+.tamanio3{
+    position: relative;
+    top: -30px;
+    right: -14px;
+    font-size: 17px;
+    color: #fff;
+
+}
+select:required + label::before { 
+    content: "*"; 
+    margin-right: 5px;
+    font-size: 20px;
+}
+.tamanio3::before{
+content: "* "; 
+
+}
+
+input[type="text"]:invalid,input[type="date"]:invalid,input[type="email"]:invalid,input[type="password"]:invalid,
+select:invalid {
+    border: 2px solid red
+}
+input[type="text"]:valid,input[type="date"]:valid,input[type="email"]:valid,input[type="password"]:valid,
+select:valid {
+    border: 2px solid  rgb(21, 212, 21);
+}
+
+
+.tamanio4{
+    position: relative;
+    top: -30px;
+    right: -163px;
+    font-size: 17px;
+    color: #fff;
+
+}
+.tamanio4::before{
+    content: "* "; 
+
+}
+
+.tamanio5{
+
+    position: relative;
+    top: -30px;
+    right: -76px;
+    font-size: 17px;
+color: #fff;
+}
+.tamanio5::before{
+    content: "* "; 
+}
+
+
+.tamanio6{
+    position: relative;
+    top: -30px;
+    right: -169px;
+    font-size: 17px;
+    color: #fff;
+
+}
+.tamanio6::before{
+    content: "* "; 
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
